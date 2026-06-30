@@ -120,4 +120,4 @@ claude plugin details tooling-bootstrap         # componentes + coste en tokens
 
 ## Licencia
 
-MIT (pendiente de añadir `LICENSE`).
+[MIT](./LICENSE) © 2026 Gonzalo Pinell.
