@@ -70,14 +70,14 @@ tooling-bootstrap/
 ```bash
 git clone https://github.com/gonzalopinell/tooling-bootstrap
 claude plugin marketplace add ./tooling-bootstrap
-claude plugin install tooling-bootstrap@gonzalo-marketplace -y
+claude plugin install tooling-bootstrap@gonzalo-marketplace
 # Aplica los cambios: reinicia Claude Code (o usa el menú /plugin)
 ```
 
 ### Opción B — desde GitHub
 ```bash
 claude plugin marketplace add gonzalopinell/tooling-bootstrap
-claude plugin install tooling-bootstrap@gonzalo-marketplace -y
+claude plugin install tooling-bootstrap@gonzalo-marketplace
 # Reinicia Claude Code (o usa el menú /plugin) para aplicar los cambios
 ```
 
@@ -99,7 +99,7 @@ claude plugin install tooling-bootstrap@gonzalo-marketplace -y
 ```bash
 claude plugin validate ./tooling-bootstrap      # valida manifiestos
 claude plugin marketplace add ./tooling-bootstrap
-claude plugin install tooling-bootstrap@gonzalo-marketplace -y
+claude plugin install tooling-bootstrap@gonzalo-marketplace
 claude plugin details tooling-bootstrap         # componentes + coste en tokens
 ```
 

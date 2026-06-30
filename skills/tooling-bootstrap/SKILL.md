@@ -81,7 +81,7 @@ Mapa stack → candidatos: `reference/stack-map.md`.
   (o `bash ${CLAUDE_PLUGIN_ROOT}/scripts/inventory.sh`). Marca lo ya presente para **no reinstalar**.
 
 ### Paso 4 — Instalar/declarar solo lo que falte
-- **Global:** `claude plugin install <plugin>@<marketplace> -y`, `npx skills add <repo>`,
+- **Global:** `claude plugin install <plugin>@<marketplace>` (scope `user` por defecto), `npx skills add <repo>`,
   `claude mcp add <nombre> -s user …`, CLIs vía `brew install …` / `uv tool install …`.
   Marketplaces de terceros: `claude plugin marketplace add <owner/repo>` antes de instalar.
 - **Local:** edita/crea `.claude/settings.json` (`extraKnownMarketplaces` + `enabledPlugins`),

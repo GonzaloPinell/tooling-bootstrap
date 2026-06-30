@@ -24,7 +24,7 @@ comandos de abajo.
 claude plugin marketplace add <owner/repo>
 
 # Plugins globales
-claude plugin install <plugin>@<marketplace> -y
+claude plugin install <plugin>@<marketplace>
 # p. ej.: superpowers, spec-kit, skill-creator, security-*
 
 # Skills globales (categorías A/B/C)

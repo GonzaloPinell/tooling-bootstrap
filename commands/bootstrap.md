@@ -67,7 +67,7 @@ antes de instalar. No instales nada todavía.
 **no reinstalar**.
 
 ### Paso 4 — Instalar/declarar SOLO lo que falte
-- **Global** (nivel usuario, project-agnostic): `claude plugin install …@… -y`,
+- **Global** (nivel usuario, project-agnostic): `claude plugin install …@…`,
   `npx skills add <repo>`, `claude mcp add <nombre> -s user …`, CLIs vía `brew`/`uv`.
 - **Local** (en el repo): `extraKnownMarketplaces` + `enabledPlugins` en
   `.claude/settings.json`, skills en `.claude/skills/`, MCP en `.mcp.json`.

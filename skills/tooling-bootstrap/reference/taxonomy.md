@@ -15,8 +15,8 @@ herramienta. **Nada aquí instala o borra**: es criterio de decisión.
                     └── No → reevalúa; probablemente Global.
 ```
 
-- **Global** → `claude plugin install <plugin>@<marketplace> -y` (instala a nivel
-  usuario por defecto), `npx skills add` (a `~/.claude/skills`), `claude mcp add -s user`,
+- **Global** → `claude plugin install <plugin>@<marketplace>` (scope `user` por
+  defecto), `npx skills add` (a `~/.claude/skills`), `claude mcp add -s user`,
   CLIs (`brew`/`uv`). Documentado en README (sección Setup).
 - **Local** → `.claude/settings.json` (`extraKnownMarketplaces` + `enabledPlugins`),
   `.claude/skills/<nombre>/`, `.mcp.json`. **Versionado en git.**
