@@ -1,0 +1,15 @@
+{
+  "name": "gonzalo-marketplace",
+  "owner": { "name": "Gonzalo Pinell", "email": "gonzalopinell@gmail.com" },
+  "metadata": {
+    "description": "Marketplace de Gonzalo Pinell. Incluye tooling-bootstrap: configura el tooling de agente de un proyecto (skills/plugins/MCPs) desde su REQUIREMENTS.md, de forma no destructiva."
+  },
+  "plugins": [
+    {
+      "name": "tooling-bootstrap",
+      "description": "Refina REQUIREMENTS.md y configura el tooling del proyecto (skills/plugins/MCPs) de forma no destructiva e idempotente.",
+      "version": "0.1.0",
+      "source": "./"
+    }
+  ]
+}
