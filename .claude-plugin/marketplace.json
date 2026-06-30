@@ -8,7 +8,7 @@
     {
       "name": "tooling-bootstrap",
       "description": "Refina REQUIREMENTS.md y configura el tooling del proyecto (skills/plugins/MCPs) de forma no destructiva e idempotente.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": "./"
     }
   ]

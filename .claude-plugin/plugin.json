@@ -1,6 +1,6 @@
 {
   "name": "tooling-bootstrap",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Refina REQUIREMENTS.md con preguntas e inferencia, y configura de forma no destructiva el tooling del proyecto (skills/plugins/MCPs) distinguiendo global vs local.",
   "author": { "name": "Gonzalo Pinell", "email": "gonzalopinell@gmail.com" },
   "homepage": "https://github.com/gonzalopinell/tooling-bootstrap",
