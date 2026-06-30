@@ -81,6 +81,16 @@ claude plugin install tooling-bootstrap@gonzalo-marketplace
 # Reinicia Claude Code (o usa el menú /plugin) para aplicar los cambios
 ```
 
+### Actualizar
+```bash
+claude plugin marketplace update gonzalo-marketplace          # refresca el caché
+claude plugin update tooling-bootstrap@gonzalo-marketplace    # usa el nombre CUALIFICADO
+# Reinicia Claude Code para aplicar. (El update con el nombre simple "tooling-bootstrap"
+# puede fallar con "Plugin not found"; usa siempre <plugin>@<marketplace>.)
+```
+
+> Nota CLI: `claude plugin install` instala con scope `user` por defecto y **no** acepta `-y`.
+
 ## Uso
 
 ```bash
